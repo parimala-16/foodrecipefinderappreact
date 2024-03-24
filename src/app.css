@@ -1,0 +1,15 @@
+* {
+    margin: 1;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.App {
+    min-height: 110vh;
+    background-image: linear-gradient(120deg, #dfd2bb 0%, #f1e0c4 110%);
+}

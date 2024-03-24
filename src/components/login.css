@@ -1,0 +1,88 @@
+
+.containermain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+  }
+
+  .screen {
+    position: relative;
+    height: 550px;
+
+    width: 410px;
+    border: 2px solid #dadad3;
+    border-radius: 15px;
+    background-color: #fbf2f2;
+  }
+ 
+  .container{
+    height: 310px;
+    width: 340px;
+    border: 1px solid #e9e9de;
+    border-radius: 12px;
+    margin-top: 22px;
+    margin-left: 13px;
+  }
+
+  .content {
+    justify-content: center;
+    text-align: center;
+    margin-top: 55px;
+
+  }
+  
+  .logo{
+    max-width: 1240px;
+    height: 80px;
+    width: 110px;
+    background-color: #f9f1f1;
+  }
+
+  .login {
+    text-align: left;
+    padding: 33px;
+  }
+
+  .form-control:focus {
+
+    border: 1.5px solid #ebebda !important;
+    box-shadow: inset 0.1 0.1px 0.1 #ddd8d8;
+
+  }
+
+  .form-control::placeholder {
+
+    font-size: 14px;
+    color: #b3b2ae;
+
+  }
+
+  .login-button  {
+    margin-top: 13px;
+    width: 330px;
+    background-color: #e36a29;
+    color: rgba(255, 255, 255, 0.838);
+  }
+
+  .login-button-disabled {
+    margin-top: 14px;
+    width: 350px;
+    background-color: #e36a29;
+    color: rgba(255, 255, 255, 0.838);
+    opacity: 0.3;
+  }
+  
+  .signup-user{
+    justify-content: center ;
+    font-size: 14px;
+    font-weight: 450;
+    align-items: center;
+  }
+
+  .user-text{
+    font-size: 13px;
+    font-weight: 450;
+    color: #2f81d8;
+  }
+ 

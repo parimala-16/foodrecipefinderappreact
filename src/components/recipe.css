@@ -1,0 +1,30 @@
+.recipe {
+    border-radius: 12px;
+    box-shadow: 0px 3px 17px rgba(71, 71, 71, 0.322);
+    min-width: 55%;
+    background: #faf4f4;
+    padding: 22px;
+}
+
+.recipe-top {
+
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+
+    .img {
+        width: 36%;
+        border-radius: 47%;
+    }
+
+    .recipe-details {
+        width: 64%;
+        padding: 12px;
+
+        .name {
+            font-size: 26px;
+        }
+    }
+}

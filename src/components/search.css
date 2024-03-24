@@ -1,0 +1,26 @@
+.search {
+    min-height: 15vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+
+    width: 55%;
+    border: 2px solid rgb(177, 86, 17);
+    padding: 13px;
+}
+
+.button-search {
+    
+    background: rgb(174, 86, 18);
+    padding: 13px 22px;
+    color: #f1e9e9;
+    border: none;
+
+    &:focus {
+        
+        outline: none;
+    }
+}
